@@ -1,0 +1,129 @@
+h2 {
+    width: 100%;
+    color: purple;
+    background-color: burlywood;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 0% 0% 50% 50%;
+    -webkit-border-radius: 0% 0% 50% 50%;
+    -moz-border-radius: 0% 0% 50% 50%;
+    -ms-border-radius: 0% 0% 50% 50%;
+    -o-border-radius: 0% 0% 50% 50%;
+    font-size: 24px;
+}
+
+/** container hissəsi */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/** dairə hissəsi */
+.dairə {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    transition: all 0.5 ease;
+    -webkit-transition: all 0.5 ease;
+    -moz-transition: all 0.5 ease;
+    -ms-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+}
+
+.dairə:hover {
+    transform: rotate(720deg);
+    transition: transform 2s;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+}
+
+/** bütün parça hissəsi */
+.parça {
+    width: 150px;
+    height: 150px;
+}
+
+/** sol parça hissəsi */
+.sol {
+    background-color: black;
+    border-radius: 100% 0% 0% 0%;
+    -webkit-border-radius: 100% 0% 0% 0%;
+    -moz-border-radius: 100% 0% 0% 0%;
+    -ms-border-radius: 100% 0% 0% 0%;
+    -o-border-radius: 100% 0% 0% 0%;
+}
+
+/** sağ parça hissəsi */
+.sağ {
+    background-color: red;
+    border-radius: 0% 100% 0% 0%;
+    -webkit-border-radius: 0% 100% 0% 0%;
+    -moz-border-radius: 0% 100% 0% 0%;
+    -ms-border-radius: 0% 100% 0% 0%;
+    -o-border-radius: 0% 100% 0% 0%;
+}
+
+/** alt_sağ parça hissəsi */
+.alt_sağ {
+    background-color: yellow;
+    border-radius: 0% 0% 100% 0%;
+    -webkit-border-radius: 0% 0% 100% 0%;
+    -moz-border-radius: 0% 0% 100% 0%;
+    -ms-border-radius: 0% 0% 100% 0%;
+    -o-border-radius: 0% 0% 100% 0%;
+}
+
+/** alt_sol parça hissəsi */
+.alt_sol {
+    background-color: purple;
+    border-radius: 0% 0% 0% 100%;
+    -webkit-border-radius: 0% 0% 0% 100%;
+    -moz-border-radius: 0% 0% 0% 100%;
+    -ms-border-radius: 0% 0% 0% 100%;
+    -o-border-radius: 0% 0% 0% 100%;
+}
+
+/** çarx hissəsi */
+.çarx {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+}
+
+/** çarx-2 hissəsi */
+.çarx-2 {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: calc(50% - 12.5px);
+}
+
